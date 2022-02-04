@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>My name is Jappreet Singh who is a student at Chandigarh University, Punjab. I am an undergraduate pursuing BE. Computer Science Engineering degree. For a few months, I am working on myself learning some stuff from the internet and implementing it! </p>
+        <p>My interests are in Python and Web development, so I have made this blog from the scratch using Python, HTML, and their components like Bootstrap, Jinja, Flask, MySql, WTForms, and much more...</p>
+        <p>I am on my journey to become a full-stack developer by learning new things, building new stuff, exploring, and gaining experience in this vast field. I know this journey will be tough, but I am ready for it!</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
